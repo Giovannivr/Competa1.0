@@ -1,0 +1,133 @@
+html{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+.nav__box{
+	background-color: white;
+	margin: 5% 5% 0% 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.nav__ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	align-items: center;
+	flex-direction: row;
+}
+.nav__text--logo{
+	color: #666;
+	width: 100px;
+}
+.nav__text{
+	color: #666;
+	width: 300px;
+}
+.hoofdcontent{
+	background-color: white;
+	margin: -0.1% 5% 5% 5%;
+	padding-top: 1%;
+	opacity: 0.9;
+}
+.text__grey{
+	color: grey;
+	text-align: center;
+}
+.text__blue{
+	color: #09F;
+	font-size: 180%;
+	font-weight: bold;
+	text-align: center;
+}
+.text{
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+}
+.tablecell{
+	
+}
+.tablerow{
+	
+}
+.tablecell{
+	border: solid 1px #0CF;	
+}
+.tablecell__checkbox{
+	display: flex;
+	justify-content: flex-end;
+}
+.tablecell__image{
+	
+}
+.tablecell__text{
+	text-align: center;
+
+}
+.text__header{
+	color: #09F;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 120%;	
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form__input--blue{
+	border: none;
+    border-bottom: 2px solid #0CF;
+	width: 27%;
+}
+.form__input{
+	border: none;
+    border-bottom: 2px solid gray;
+	width: 27%;
+}
+.form__input--gray{
+	border: none;
+    border-bottom: 2px solid lightgray;
+	width: 27%;
+}
+.form__text{
+	font-size: 80%;
+}
+.form__button{
+	background-color: #0CF;
+	margin-top: 3%;
+	margin-bottom: 7%;
+	width: 10%;
+	border-radius: 25px;
+}
+footer{
+	background-color: white;
+	margin: -5% 5% 5% 5%;
+}
+.footer__ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	align-items: center;
+	flex-direction: row;
+}
+.footer__logo{
+	color: #666;
+	width: 12.5%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
